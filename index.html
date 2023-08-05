@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scrollbar Animation</title>
+    <link rel="stylesheet" href="index.css" />
+    <script defer src="index.js"></script>
+  </head>
+  <body>
+    <div class="imgs">
+      <img
+        src="images/img-1.png"
+        id="img-1"
+        alt=""
+        class="top-section-image show"
+      />
+      <img src="images/img-2.png" id="img-2" alt="" class="" />
+      <img src="images/img-3.png" id="img-3" alt="" class="" />
+    </div>
+    <section class="top-section full-screen-section">
+      <div class="left">
+        <h1>Build Better Backends</h1>
+        <p>
+          The only platform that gives the ability to automaously build web
+          service
+        </p>
+      </div>
+      <div class="right"></div>
+    </section>
+    <section class="first-main-section full-screen-section">
+      <h1>Completly Visual</h1>
+      <p>Never Touch the command line, from provision to production</p>
+      <div data-img-to-show="#img-1"></div>
+    </section>
+    <section class="full-screen-section">
+      <h1>Full Stack</h1>
+      <p>
+        Never manage infra again.one click get you: a database, APIs,deplyment,
+        hosting,etc.
+      </p>
+      <div data-img-to-show="#img-2"></div>
+    </section>
+    <section class="full-screen-section">
+      <h1>Launch Fast</h1>
+      <p>Logical can get systems to market in minutes insted of weeks</p>
+      <div data-img-to-show="#img-3"></div>
+    </section>
+  </body>
+</html>
